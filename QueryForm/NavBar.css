@@ -1,0 +1,45 @@
+	.navbar{
+	    overflow: hidden;
+		background-color:#1D2D50;		
+		padding: 10px 10px;
+		position:fixed;			  
+		width:100%;
+		z-index: 99;
+		top: 0;
+		transition:0.3s;
+	}
+	
+	.navbar .logo{
+		left:0;
+		height:15px;
+		width:100px;
+		
+	}
+	.navbar .Button{
+		background-color:#1D2D50;
+		border:none;
+		opacity:1;
+		color:#ffd4fe;
+		padding: 10px 30px;
+		text-align:center;
+		text-decoration:none;
+		display:inline-block;
+		font-size: 20px;
+		font-family: Arial, Helvetica, sans-serif;
+		cursor: pointer;
+		float: right;	
+		transition: all 0.5s;
+		margin:0px;
+		border-radius: 12px;
+						
+			
+	}
+	
+	.navbar .Button:hover{
+		background-color:#005792;
+		font-size:24px;		
+	}
+	.navbar:hover{
+		padding: 14px 10px;
+				
+	}

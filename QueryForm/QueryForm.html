@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang= "en">
+	<head>
+	    <meta charset="UTF-8">
+		<title>INFINITIX Query Form</title>
+		
+		<link rel="stylesheet" href="QueryFormStyles.css">
+		<link rel="stylesheet" href="NavBar.css">
+		
+	</head>	
+	<body>
+		<section>
+			<div class = "navbar">
+				<img id="logo" src="Infinitix1.png" alt="LOGO">
+				<a href="https://w1833669.users.ecs.westminster.ac.uk/public_html/CW/ABOUT%20US/about-us.html" class="Button" ><span>About Us</span></a>
+				<a href="https://w1830126.users.ecs.westminster.ac.uk/web%20design%20coursework/sitemap.html" class="Button" ><span>Site Map</span></a>
+				<a href="https://w1830126.users.ecs.westminster.ac.uk/web%20design%20coursework/Gallery.html" class="Button" ><span>Gallery</span></a>
+				<a href="https://w1833669.users.ecs.westminster.ac.uk/public_html/CW/QUIZ/quiz.html" class="Button" ><span>Quiz</span></a>
+				<a href="https://w1833692.users.ecs.westminster.ac.uk/INFINITIX/w1833692/store.html" class="Button" ><span>Store</span></a>			
+				<a href="https://w1832564.users.ecs.westminster.ac.uk/Main%20Page%20&%20Querry%20Form/MainPage/Mainpage.html" class="Button"><span>Home</span></a>
+			</div>
+			
+			<div id ="formgrid">
+				<h1>Query Form</h1>
+				<form id ="Form1">
+					<label for="Fname">Full Name</label>
+					<input type="text" id="Fname" name="Fullname" placeholder="Enter Your Name...">
+					
+					<label for="Email">Email</label>
+					<input type="email" id="Email" name="Email" placeholder="Enter Your Email">
+					
+					<label for="Query">Subject</label>
+					<select id="Query" name="Querytype" >
+						<option value="">Select Query Option:</option>
+						<option value="Delivery">Delivery </option>
+						<option value="Product">Buying Products </option>
+						<option value="Gift">Gift pack </option>
+						<option value="Prices">Price Changes</option>
+						<option value="other">Other</option>
+						
+					</select>
+					
+					<label for="Details">Details</label>
+					<textarea id="Details" name="details" placeholder="Write Something..." style="height:300px;"></textarea>				
+					
+				</form>
+				<button type="button" onclick="GetAlert();">View Query</button>
+			
+			</div>
+		</section>			
+		<script src="Queryscript.js"></script>		
+			
+	</body>	
+	
+</html>        	
